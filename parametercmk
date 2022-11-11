@@ -9,16 +9,16 @@
             "value": "eastus"
         },
         "defaultDataLakeStorageAccountName": {
-            "value": "dlsdevgpdsauto004"
+            "value": "shreestore"
         },
         "defaultDataLakeStorageFilesystemName": {
-            "value": "stagingarea"
+            "value": "shreefile"
         },
         "sqlAdministratorLogin": {
             "value": "sqladminuser"
         },
         "sqlAdministratorLoginPassword": {
-            "value": null
+            "value": "Pluto@2022"
         },
         "setWorkspaceIdentityRbacOnStorageAccount": {
             "value": false
@@ -27,7 +27,7 @@
             "value": true
         },
         "defaultAdlsGen2AccountResourceId": {
-            "value": "/subscriptions/bf5e078a-f29b-4965-bd2d-864c5b47f6c8/resourceGroups/rg-dev-globalplatformdataservices/providers/Microsoft.Storage/storageAccounts/dlsdevgpdsauto004"
+            "value": "/subscriptions/bf5e078a-f29b-4965-bd2d-864c5b47f6c8/resourceGroups/shree/providers/Microsoft.Storage/storageAccounts/shreestore"
         },
         "azureADOnlyAuthentication": {
             "value": false
@@ -45,8 +45,8 @@
             "value": {
                 "cmk": {
                     "key": {
-                        "name": "default",
-                        "keyVaultUrl": "https://kv-dev-gpds-auto-004.vault.azure.net/keys/kv-key-gpds-synapse-auto-004"
+                        "name": "shreeKey",
+                        "keyVaultUrl": "https://shreekey.vault.azure.net/"
                     },
                     "kekIdentity": {
                         "useSystemAssignedIdentity": true,
