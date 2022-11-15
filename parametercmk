@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "name": {
-            "value": "synw-dev-gpds-auto-004"
+            "value": "parametercmk"
         },
         "location": {
             "value": "eastus"
